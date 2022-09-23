@@ -1,0 +1,21 @@
+.dino-grid {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.dino-grid > div {
+  background: #e0e6ed;
+  padding: 8px;
+  text-align: center;
+  border-radius: 16px;
+}
+
+.dino-grid > div > img {
+  border-radius: 8px;
+  width: 100%
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}

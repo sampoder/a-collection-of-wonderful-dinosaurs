@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/graphql/photos.sdl.ts"],
+  "sourcesContent": ["export const schema = gql`\n  type Photo {\n    id: Int!\n    photo: String!\n  }\n\n  type Query {\n    photos: [Photo!]! @requireAuth\n    photo(id: Int!): Photo @requireAuth\n  }\n\n  input CreatePhotoInput {\n    photo: String!\n  }\n\n  input UpdatePhotoInput {\n    photo: String\n  }\n\n  type Mutation {\n    createPhoto(input: CreatePhotoInput!): Photo! @requireAuth\n    updatePhoto(id: Int!, input: UpdatePhotoInput!): Photo! @requireAuth\n    deletePhoto(id: Int!): Photo! @requireAuth\n  }\n`\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;yBAAsBA;AAAf,MAAMC,SAASD,mBAAAA;;;;;;;;;;;;;;;;;;;;;;;;;",
+  "names": ["gql", "schema"]
+}
