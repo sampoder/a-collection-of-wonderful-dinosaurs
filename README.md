@@ -6,4 +6,4 @@ Today, I tried out RedwoodJS for the first (I’m planning to start using it in 
 
 As I was playing around, I made this small website that housed a collection of dinosaur images! It was interesting messing around with Redwood’s generators & how Redwood uses Prisma.
 
-🌲 Into the redwoods I go...
+_🌲 Into the redwoods I go..._
